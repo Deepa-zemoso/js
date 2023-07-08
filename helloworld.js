@@ -47,13 +47,6 @@ const {name: personName, age: personAge} = person;
 
 console.log("name " + personName + " and age " + personAge);
 
-function loadScript(src) {
-    let script = document.createElement('script');
-    script.src = src; 
-    document.head.append(script);
-  }
-  
-  loadScript('/src/helloworld.js');
 
 
 
